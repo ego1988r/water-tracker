@@ -27,11 +27,7 @@ jobs:
           java-version: 17
 
       - name: Setup Android SDK
-    
-      - uses: malinskiy/action-android/install-sdk@release/0.1.0
-        
-      - name: Accept licenses
-        run: yes | sdkmanager --licenses || true
+        uses: malinskiy/action-android/install-sdk@release/0.1.0
 
       - name: Build APK
         run: flet build apk
