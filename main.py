@@ -1,4 +1,4 @@
-import flet as ft
+какimport flet as ft
 import os
 from datetime import datetime
     
@@ -67,11 +67,11 @@ def main(page: ft.Page):
             color_scheme=ft.ColorScheme(
                 primary="#4FC3F7",
                 secondary="#00BCD4",
-                background="#162436",
+                
                 surface="#1F3550",
                 on_primary="#FFFFFF",
                 on_secondary="#FFFFFF",
-                on_background="#FFFFFF",
+            
                 on_surface="#FFFFFF",
             ),
         )
