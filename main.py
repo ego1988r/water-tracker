@@ -368,4 +368,4 @@ def main(page: ft.Page):
                         f.write("")
             show_tracker(page, saved_name) 
         
-ft.app(target=main, view=ft.AppView.WEB_BROWSER, host="0.0.0.0", port=8501)
+ft.run(main)
