@@ -18,7 +18,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install Flet
-        run: pip install flet
+        run: pip install flet==0.21.2
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
