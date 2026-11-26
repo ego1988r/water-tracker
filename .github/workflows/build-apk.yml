@@ -28,8 +28,7 @@ jobs:
 
       - name: Accept Android licenses
         run: |
-          flutter doctor --android-licenses || true
-          yes | flutter doctor --android-licenses || true
+          yes "y" | head -n 100 | flutter doctor --android-licenses || true
 
       - name: Build APK
         run: flet build apk
